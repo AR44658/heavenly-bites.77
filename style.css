@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #fff5f8;
+    color: #5a3e36;
+}
+
+header {
+    background: #f8d7da;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    height: 60px;
+}
+
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #5a3e36;
+    font-weight: bold;
+}
+
+.hero {
+    background: url('hero.jpg') center/cover no-repeat;
+    color: rgb(66, 109, 152);
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.btn {
+    background: #ff7b8a;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.menu-items {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.menu-items .item {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+
+.gallery-grid img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 300px;
+    margin: auto;
+}
+
+form input, form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+form button {
+    background: #ff7b8a;
+    color: white;
+    padding: 10px;
+    border: none;
+}
+
+footer {
+    background: #f8d7da;
+    padding: 10px;
+    text-align: center;
+}
